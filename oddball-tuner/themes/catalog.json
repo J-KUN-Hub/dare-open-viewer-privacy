@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "themes": [
+    {
+      "id": "retro-ivory",
+      "name": "Original",
+      "caption": "아이보리 플라스틱 · RGB",
+      "localizedNames": {
+        "en": "Original",
+        "ko": "오리지널"
+      },
+      "localizedCaptions": {
+        "en": "Ivory plastic · RGB",
+        "ko": "아이보리 플라스틱 · RGB"
+      },
+      "skin": "original",
+      "needleStyle": "line",
+      "fontStyle": "monospaced",
+      "boxStyle": "square",
+      "sortOrder": 0,
+      "accentHex": "#FF5A4D",
+      "secondaryHex": "#2F7CFF",
+      "tertiaryHex": "#FFC53A",
+      "lightChassisHexes": [
+        "#F2EBD8",
+        "#CED1CB",
+        "#E5DDC8"
+      ],
+      "darkChassisHexes": [
+        "#202326",
+        "#343330",
+        "#181A1C"
+      ],
+      "displayHexes": [
+        "#070A0D",
+        "#12171A",
+        "#211D1A"
+      ],
+      "settingsHexes": [
+        "#17191B",
+        "#242321"
+      ],
+      "lightForegroundHex": "#1F2428",
+      "darkForegroundHex": "#F2EFE6",
+      "bezelHex": "#101416"
+    }
+  ]
+}

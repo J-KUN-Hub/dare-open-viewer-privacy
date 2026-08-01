@@ -6,11 +6,14 @@
   <meta name="description" content="별꼴 튜너(Oddball Tuner) 개인정보 처리방침 - J.KUN Media Lab">
   <title>별꼴 튜너 개인정보 처리방침</title>
   <style>
-    :root{color-scheme:light dark;--bg:#f1eee4;--paper:#fffdf7;--text:#181813;--muted:#5b594f;--line:#c7c0b0;--accent:#c4b900}@media(prefers-color-scheme:dark){:root{--bg:#101010;--paper:#191919;--text:#f7f4e9;--muted:#bbb7aa;--line:#48453d;--accent:#f3e85b}}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;line-height:1.75}main{width:min(820px,calc(100% - 28px));margin:32px auto 64px;background:var(--paper);border:1px solid var(--line);padding:clamp(24px,6vw,58px)}.brand{font-weight:850;letter-spacing:.08em;color:var(--muted)}h1{font-size:clamp(32px,7vw,52px);line-height:1.08;letter-spacing:-.05em;margin:10px 0}.date{color:var(--accent);font-weight:800;margin-bottom:30px}h2{font-size:21px;margin:34px 0 8px;padding-top:23px;border-top:1px solid var(--line)}p,li{color:var(--muted)}ul{padding-left:22px}a{color:inherit;text-decoration-color:var(--accent);text-decoration-thickness:2px}.notice{padding:18px;border-left:6px solid var(--accent);background:color-mix(in srgb,var(--accent) 12%,transparent)}.nav{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}.nav a{border:1px solid var(--line);padding:10px 14px;text-decoration:none;font-weight:750}footer{margin-top:36px;color:var(--muted);font-size:14px}
+    :root{color-scheme:light dark;--bg:#f1eee4;--paper:#fffdf7;--text:#181813;--muted:#5b594f;--line:#c7c0b0;--accent:#c4b900}@media(prefers-color-scheme:dark){:root{--bg:#101010;--paper:#191919;--text:#f7f4e9;--muted:#bbb7aa;--line:#48453d;--accent:#f3e85b}}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;line-height:1.75}main{width:min(820px,calc(100% - 28px));margin:32px auto 64px;background:var(--paper);border:1px solid var(--line);padding:clamp(24px,6vw,58px)}.brand{font-weight:850;letter-spacing:.08em;color:var(--muted)}.language-tools{display:flex;justify-content:flex-end;margin-bottom:18px}.translate-widget{min-height:30px}.translate-widget .goog-te-gadget{color:var(--muted)!important;font-size:13px}.translate-widget .goog-te-gadget-simple{background:var(--paper);border:1px solid var(--line);padding:7px 9px}.translate-widget .goog-te-gadget-simple a{color:var(--text)!important;text-decoration:none}h1{font-size:clamp(32px,7vw,52px);line-height:1.08;letter-spacing:-.05em;margin:10px 0}.date{color:var(--accent);font-weight:800;margin-bottom:30px}h2{font-size:21px;margin:34px 0 8px;padding-top:23px;border-top:1px solid var(--line)}p,li{color:var(--muted)}ul{padding-left:22px}a{color:inherit;text-decoration-color:var(--accent);text-decoration-thickness:2px}.notice{padding:18px;border-left:6px solid var(--accent);background:color-mix(in srgb,var(--accent) 12%,transparent)}.nav{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}.nav a{border:1px solid var(--line);padding:10px 14px;text-decoration:none;font-weight:750}footer{margin-top:36px;color:var(--muted);font-size:14px}
   </style>
 </head>
 <body>
   <main>
+    <div class="language-tools" aria-label="언어 선택">
+      <div id="google_translate_element" class="translate-widget"></div>
+    </div>
     <div class="brand">J.KUN Media Lab</div>
     <h1>별꼴 튜너 개인정보 처리방침</h1>
     <p lang="en"><strong>Oddball Tuner Privacy Policy</strong></p>
@@ -72,5 +75,16 @@
     </nav>
     <footer>© 2026 J.KUN Media Lab</footer>
   </main>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: "ko",
+        includedLanguages: "ko,en,ja,zh-CN,zh-TW,es,fr,de,pt,hi,id",
+        autoDisplay: false,
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, "google_translate_element");
+    }
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
